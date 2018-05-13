@@ -11,7 +11,7 @@ html {
 body {
     color: #111;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     margin: 0;
 }
 
@@ -26,7 +26,7 @@ a:hover h2 {
 
 h1 {
     display: inline-block;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0 0 0 0.5em;
 }
 
@@ -86,7 +86,9 @@ h2 {
 }
 
 .entry {
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
     padding: 1em;
-    margin: 0.5em 0;
+    margin: 0.5em 0.5em;
+    border-radius: 0.5em;
+
 }

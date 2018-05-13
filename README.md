@@ -1,4 +1,4 @@
-# Feed Reader Project - Testing Using Jasmine
+# Feedreader Project - Testing Using Jasmine
 
 ## Why this Project?
 
@@ -16,8 +16,8 @@ Whether you work in an organization that uses test-driven development or in an o
 * Once loaded, test results should be displayed at the bottom of the page;
 
 ### Clone the project
-* Pre-requisite : Install git.
-* Open your terminal and run 'git clone https://github.com/alenayyy/fend-project-feedreader.git'
+* Pre-requisite : Install git;
+* Open your terminal and run 'git clone https://github.com/alenayyy/fend-project-feedreader.git';
 * Open the folder and double click on index.html - this will run the file in your browser;
 * Once loaded, test results should be displayed at the bottom of the page;
 
