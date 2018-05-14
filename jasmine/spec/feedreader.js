@@ -66,15 +66,13 @@ $(function() {
         visibility when the menu icon is clicked*/
         it('the menu is visible on click and hidden on the second click', function() {
             // the menu display when clicked
-            if (!$('body').hasClass('menu-hidden')) {
-                $('a.menu-icon-link').click; // show menu
+                $('a.menu-icon-link').trigger('click') // show menu
                 expect($('body').hasClass('menu-hidden')).not.toBe(true);
-            }
+
             // hide when clicked again.
-            if ($('body').hasClass('menu-hidden')) {
-                $('a.menu-icon-link').click; //hide menu
+                $('a.menu-icon-link').trigger('click') //hide menu
                 expect($('body').hasClass('menu-hidden')).toBe(true);
-            }
+
         });
     });
 
@@ -88,11 +86,9 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, done);
         });
-
-        const entry = $('.entry');
-
+        // check if there is at least a single .entry element within the .feed container
         it('at least a single .entry element', function() {
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     });
 
